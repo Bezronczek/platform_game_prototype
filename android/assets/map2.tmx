@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="200" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain_32x" tilewidth="32" tileheight="32">
+  <image source="textures/terrain_32x.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="collisions" tilewidth="32" tileheight="32">
+  <image source="textures/collisions.png" width="128" height="128"/>
+  <tile id="1">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6F71L/mCRkkrJqqqqqqqqqqqqqqqqqqqqrvH03+PoE=
+  </data>
+ </layer>
+ <layer name="ground" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2MsKgCAQBdAgqlX//7vtg+kpOtY5cKGdLryMNgwAAJDLsgv8mQ4AcIV5QVZzEKAN84KvKDlf9IKsWt6h9IK/iubL1f5583Cm1Pno7Y3tvwBn3pyPHs/UvPvWDyJv3769nyn9IHJ0b797d88u2qN+sFZK6/VFnmSslEit9UUyZwrSel8iGaIf0mM2MEETAg==
+  </data>
+ </layer>
+ <layer name="collisions" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2lEKhDAMRdFuoe5/sdI/UVNbG2vS3AOBgQGnjXk4ijmllCmKEgvAFfkAZORDB9fjNXE+36FnMZAPQEY+2tCjmDzkg2du+Auzdo+eoFghH5rXF++9gC5L+fjzP5SVHsAWS/n4yuh7A9zzxNV63rXmw9s99nmNHtYMPS1zmoXPWse3prZfb3vBmKf5vfuuZ0Y85uOIfMRWm9/e3PQe35LWHnjYC/RYeId+5hooqrdmqP3OrDUAVpUMbEKRD0TH9QNe7fYNITs=
+  </data>
+ </layer>
+</map>

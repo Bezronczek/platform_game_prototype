@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="50" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain_32x" tilewidth="32" tileheight="32">
+  <image source="textures/terrain_32x.png" width="128" height="128"/>
+  <terraintypes>
+   <terrain name="grass" tile="12"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="17" name="collisions" tilewidth="32" tileheight="32">
+  <image source="textures/collisions.png" width="128" height="128"/>
+ </tileset>
+ <layer name="bg" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9OzsQckrJqqqvr6AT0bAu8=
+  </data>
+ </layer>
+ <layer name="ground" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztk80KACAIgwWPvv/7duoSLjWjQ2zwQSFsrB8VESWEfE8kA2tv31HHq9rjZvZNr0yParYB0NzzWmeRqj0y3qhbtD7Jmur+j2w+uoOd58se0dlnhN5htQchxGcACukHXg==
+  </data>
+ </layer>
+ <layer name="collisions" width="50" height="15" opacity="0.5">
+  <data encoding="base64" compression="zlib">
+   eJztVEEKACAI2xf8/2c7dQmtplIRCrtkOocrASCfICtKR76OSP0rOm7Vn/LVOKuVi4a3166WWf4lHdncrP+0XsxsHh2sD7WzmU9Zrn6P9VVEh8Vn9czeB/vOPTv2/kGr+kKhADQFsh7z
+  </data>
+ </layer>
+ <objectgroup name="player">
+  <object x="120" y="305"/>
+ </objectgroup>
+</map>
